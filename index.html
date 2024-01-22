@@ -41,9 +41,9 @@
                     <li><a>Blog</a></li>
                     <li><a>Contact</a></li>
                 </ul>
-              </div>
-              <a class="btn btn-ghost text-3xl">Hockey’s</a>
-            </div>
+                </div>
+                 <a class="btn btn-ghost text-3xl gap-0">Hockey<span>’</span>s</a>
+                </div>
             <div class="navbar-center hidden lg:flex">
               <ul class="menu menu-horizontal text-sm space-x-6">
                 <li><a class="text-clifford">Home</a></li>
@@ -53,10 +53,44 @@
                 <li><a>Contact</a></li>
               </ul>
             </div>
-            <div class="navbar-end">
-              <a class="btn text-xl bg-clifford text-white">Get Ticket</a>
+            <div class="navbar-end flex space-x-5 ">
+                <i class="fa-solid  hidden lg:flex fa-magnifying-glass"></i>
+              <a class="btn h-[57px] w-[148px] text-xl bg-clifford text-white">Get Ticket</a>
             </div>
           </div>
     </header>
+    <main class="container mx-auto py-10">
+        <!--banner-->
+        <section class="relative">
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative  w-full">
+                  <img src="images/1.png" class="w-full lg:h-[550px] lg:bg-cover" />
+                  <div class="absolute flex left-[43%] bottom-1 lg:left-7 lg:bottom-8 space-x-5 transform -translate-y-1/2  ">
+                    <a href="#slide2" class="btn btn-circle bg-[#131318] text-white border-none">❮</a> 
+                    <a href="#slide2" class="btn btn-circle bg-[#131318] text-white border-none">❯</a>
+                  </div>
+                </div>
+                <div id="slide2" class="carousel-item relative  w-full">
+                  <img src="images/12.png" class="w-full lg:h-[550px] lg:bg-cover" />
+                    <div class="absolute flex left-[43%] bottom-1 lg:left-7 lg:bottom-8 space-x-5 transform -translate-y-1/2  ">
+                    <a href="#slide1" class="btn btn-circle bg-[#131318] text-white border-none">❮</a> 
+                    <a href="#slide1" class="btn btn-circle bg-[#131318] text-white border-none">❯</a>
+                    </div>
+                </div>
+            </div>
+        <!--text-->
+          <div class="mt-10 lg:absolute lg:w-[36vw] border-spacing-2 bg-black rounded-xl right-10 bottom-10">
+                    <div class="text-white  py-7 pl-7 space-y-5">
+                    <h2 class="text-lg font-extrabold">Bangladesh Hockey Team</h2>
+                    <p class="opacity-60">Hockey was introduced in Bengal during the British period. The game was introduced <br> in Dhaka around 1905 under the patronage of Nawab Sir Khwaja Salimullah (1866-1915).</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Line-->
+        <section>
+            <div></div>
+        </section>
+    </main>
 </body>
 </html>
